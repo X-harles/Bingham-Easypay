@@ -1,6 +1,6 @@
-print("________Bingham Easy Pay_______")
+print("________Bingham EasyPay_______")
 print("_____________'BEP'_____________")
-print("_____""Easy Access Easy Pay""_____")
+print("_____""EasyAccess EasyPay""_____")
 name = input("Input your name here: ")
 print("________Welcome " + name + "________")
 
@@ -50,36 +50,36 @@ print("Kindly place a payment from the following bills: ")
 
 print("____________________________________________________________")
 
-print("Laundry_Services = ₦7,000")
-print("Accommodation_Fees = ₦80,000")
+print("Laundry_Services = ₦7,500")
+print("Accommodation_Fees = ₦85,000")
 print("Provisions = ₦30,000")
-print("Tuition_Fees = ₦600,000")
-print("Maintenance_Fees = ₦50,000")
+print("Tuition_Fees = ₦650,000")
+print("Maintenance_Fees = ₦55,000")
 print("Games = ₦15,000")
-print("Development_Levy = ₦100,000")
-print("Library_Services = ₦27,500")
-print("Registration_Charges = ₦17,500")
-print("ICT_Services = ₦55,000")
+print("Development_Levy = ₦101,000")
+print("Library_Services = ₦30,500")
+print("Registration_Charges = ₦20,500")
+print("ICT_Services = ₦60,000")
 print("Entrepreneur_Fees = ₦20,000")
-print("Examination_Fees = ₦35,000")
+print("Examination_Fees = ₦40,000")
 print("Health_Insurance = ₦20,000")
-print("Faculty_Payments = ₦11,000")
+print("Faculty_Payments = ₦12,000")
 print("SRC_Payments = ₦5,000")
 
-laundry_services = 7000
-accommodation_fees = 80000
+laundry_services = 7500
+accommodation_fees = 85000
 provisions = 30000
-tuition_fees = 600000
-maintenance_fees = 50000
+tuition_fees = 650000
+maintenance_fees = 55000
 games = 15000
-development_levy = 100000
-library_services = 27500
-registration_charges = 17500
-ict_services = 55000
+development_levy = 101000
+library_services = 30500
+registration_charges = 20500
+ict_services = 60000
 entrepreneur_fees = 20000
-examination_fees = 35000
+examination_fees = 40000
 health_insurance = 20000
-faculty_payments = 11000
+faculty_payments = 12000
 src_payments = 5000
 
 
@@ -100,7 +100,7 @@ if purchase == l1:
     the vat price is_N{vat}
     total price is___N{price}
 
- "Thank You Using Bingham Easy Pay"
+ "Thank You Using Bingham EasyPay"
     """)
 elif purchase == l2:
     amount = int(input("Input the amount of person's you wish to pay for: "))
@@ -113,7 +113,7 @@ elif purchase == l2:
     the vat price is_N{vat}
     total price is___N{price}
 
-    "Thank You Using Bingham Easy Pay"
+    "Thank You Using Bingham EasyPay"
     """)
 elif purchase == l3:
     amount = int(input("Input the amount of person's you wish to pay for: "))
@@ -126,7 +126,7 @@ elif purchase == l3:
         the vat price is_N{vat}
         total price is___N{price}
 
-     "Thank You Using Bingham Easy Pay"
+     "Thank You Using Bingham EasyPay"
     """)
 elif purchase == l4:
     amount = int(input("Input the amount of person's you wish to pay for: "))#
@@ -139,7 +139,7 @@ elif purchase == l4:
         the vat price is_N{vat}
         total price is___N{price}
 
-    "Thank You Using Bingham Easy Pay"
+    "Thank You Using Bingham EasyPay"
     """)
 elif purchase == l5:
     amount = int(input("Input the amount of person's you wish to pay for: "))
@@ -152,9 +152,9 @@ elif purchase == l5:
         the vat price is_N{vat}
         total price is___N{price}
 
-     "Thank You Using Bingham Easy Pay"
+     "Thank You Using Bingham EasyPay"
     """)
-    elif purchase == l6:
+elif purchase == l6:
     amount = int(input("Input the amount of person's you wish to pay for: "))
     print("____________________________________________________________")
     Matric_Number = input("Input Matriculation Number: ")
@@ -165,7 +165,7 @@ elif purchase == l5:
         the vat price is_N{vat}
         total price is___N{price}
 
-     "Thank You Using Bingham Easy Pay"
+     "Thank You Using Bingham EasyPay"
     """)
 elif purchase == l7:
     amount = int(input("Input the amount of person's you wish to pay for: "))
@@ -178,11 +178,11 @@ elif purchase == l7:
         the vat price is_N{vat}
         total price is___N{price}
 
-    "Thank You Using Bingham Easy Pay"
+    "Thank You Using Bingham EasyPay"
     """)
 elif purchase == l8:
     amount = int(input("Input the amount of person's you wish to pay for: "))
-    print("____________________________________________________________")
+   print("____________________________________________________________")
     Matric_Number = input("Input Matriculation Number: ")
     total = library_services * amount
     vat = (total * 0.075) / 100
@@ -191,7 +191,7 @@ elif purchase == l8:
         the vat price is_N{vat}
         total price is___N{price}
 
-    "Thank You Using Bingham Easy Pay"
+    "Thank You Using Bingham EasyPay"
     """)
 elif purchase == l9:
     amount = int(input("Input the amount of person's you wish to pay for: "))
@@ -204,7 +204,7 @@ elif purchase == l9:
         the vat price is_N{vat}
         total price is___N{price}
 
-     "Thank You Using Bingham Easy Pay"
+     "Thank You Using Bingham EasyPay"
     """)
 
 elif purchase == l10:
@@ -218,7 +218,7 @@ elif purchase == l10:
         the vat price is_N{vat}
         total price is___N{price}
 
-     "Thank You Using Bingham Easy Pay"
+     "Thank You Using Bingham EasyPay"
     """)
 elif purchase == l11:
     amount = int(input("Input the amount of person's you wish to pay for: "))
@@ -231,7 +231,7 @@ elif purchase == l11:
         the vat price is_N{vat}
         total price is___N{price}
 
-     "Thank You Using Bingham Easy Pay"
+     "Thank You Using Bingham EasyPay"
     """)
 elif purchase == l12:
     amount = int(input("Input the amount of person's you wish to pay for: "))
@@ -244,7 +244,7 @@ elif purchase == l12:
         the vat price is_N{vat}
         total price is___N{price}
 
-     "Thank You Using Bingham Easy Pay"
+     "Thank You Using Bingham EasyPay"
     """)
 elif purchase == l13:
     amount = int(input("Input the amount of person's you wish to pay for: "))
@@ -257,7 +257,7 @@ elif purchase == l13:
         the vat price is_N{vat}
         total price is___N{price}
 
-    "Thank You Using Bingham Easy Pay"
+    "Thank You Using Bingham EasyPay"
     """)
 elif purchase == l14:
     amount = int(input("Input the amount of person's you wish to pay for: "))
@@ -270,7 +270,7 @@ elif purchase == l14:
         the vat price is_N{vat}
         total price is___N{price}
 
-     "Thank You Using Bingham Easy Pay"
+     "Thank You Using Bingham EasyPay"
     """)
 
 elif purchase == l15:
@@ -283,5 +283,5 @@ elif purchase == l15:
     print(f"""
         the vat price is_N{vat}
         total price is___N{price}
-    "Thank You Using Bingham Easy Pay"
+    "Thank You Using Bingham EasyPay"
     """)
