@@ -102,3 +102,55 @@ if purchase == l1:
 
  "Thank You Using Bingham Easy Pay"
     """)
+elif purchase == l2:
+    amount = int(input("Input the amount of person's you wish to pay for: "))
+    print("____________________________________________________________")
+    Matric_Number = input("Input Matriculation Number: ")
+    total = accommodation_fees * amount
+    vat = (total * 0.075) / 100
+    price = total + vat
+    print(f"""
+    the vat price is_N{vat}
+    total price is___N{price}
+
+    "Thank You Using Bingham Easy Pay"
+    """)
+elif purchase == l3:
+    amount = int(input("Input the amount of person's you wish to pay for: "))
+    print("____________________________________________________________")
+    Matric_Number = input("Input Matriculation Number: ")
+    total = provisions * amount
+    vat = (total * 0.075) / 100
+    price = total + vat
+    print(f"""
+        the vat price is_N{vat}
+        total price is___N{price}
+
+     "Thank You Using Bingham Easy Pay"
+    """)
+elif purchase == l4:
+    amount = int(input("Input the amount of person's you wish to pay for: "))#
+    print("____________________________________________________________")
+    Matric_Number = input("Input Matriculation Number: ")
+    total = tuition_fees * amount
+    vat = (total * 0.075) / 100
+    price = total + vat
+    print(f"""
+        the vat price is_N{vat}
+        total price is___N{price}
+
+    "Thank You Using Bingham Easy Pay"
+    """)
+elif purchase == l5:
+    amount = int(input("Input the amount of person's you wish to pay for: "))
+    print("____________________________________________________________")
+    Matric_Number = input("Input Matriculation Number: ")
+    total = maintenance_fees * amount
+    vat = (total * 0.075) / 100
+    price = total + vat
+    print(f"""
+        the vat price is_N{vat}
+        total price is___N{price}
+
+     "Thank You Using Bingham Easy Pay"
+    """)
